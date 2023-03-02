@@ -1,0 +1,43 @@
+.container-add-clients{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-modal{
+    display: grid;
+    grid-template-columns: repeat(8, minmax(150px, 180px));
+    width: 100%;
+    padding: 1rem 0;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+}
+
+.input-add-clients{
+    border: 0;
+    border-bottom: 1px solid;
+    padding: 5px;
+    max-width: 90%;
+}
+
+.input-add-clients:focus{
+    border: 0;
+    border-bottom: 1px solid;
+}
+
+.add-client-buttom{
+    background-color: white;
+    padding: .5rem 1rem;
+    margin: 0 auto;
+    cursor: pointer;
+    border: none;
+    border-bottom: .5px solid black;
+    transition: all .3s ease-in-out;
+}
+
+.add-client-buttom:hover{
+    color: green;
+    border-bottom: .5px solid green;
+    transform: scale(1.1);
+}

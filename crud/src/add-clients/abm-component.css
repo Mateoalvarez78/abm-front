@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container-abm-app{
+    width: 80vw;
+    height: auto;
+    border: 1px solid black;
+    padding: 1.5rem;
+    margin: 3rem auto;
+}
+
+
+
+.category-list{
+    display: grid;
+    grid-template-columns: repeat(8, minmax(150px, 180px));
+    width: 100%;
+    padding: 1rem 10px;
+    list-style: none;
+    gap: 10px;
+}
+
+.category-item{
+    border-right: 1px solid black;
+    padding-left: .5rem;
+    cursor: pointer;
+}
+
+.category-list select{
+    border: none;
+    border-right: 1px solid black;
+    
+}
+
+.container-icons-action{
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    gap: 1.5rem;
+}
+
+.background-delete-img{
+    background-image: url("../assests/delete.png");
+    min-width: 20px;
+    min-height: 20px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.background-edit-img{
+    background-image: url("../assests/edit.png");
+    min-width: 20px;
+    min-height: 20px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.background-edit-img:hover, .background-delete-img:hover{
+    transform: scale(1.2);
+}
